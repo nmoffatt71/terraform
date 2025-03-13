@@ -9,3 +9,7 @@ variable "application_name" {
 variable "environment_name" {
   type = string
 }
+
+variable "environment_name1" {
+  type = string
+}
