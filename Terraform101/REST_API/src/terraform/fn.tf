@@ -44,7 +44,6 @@ resource "azurerm_linux_function_app" "foo" {
     "APPINSIGHTS_INSTRUMENTATIONKEY" = azurerm_application_insights.main.APPINSIGHTS_INSTRUMENTATIONKEY
   }
 
-
   identity {
     type         = "SystemAssigned, UserAssigned"
     identity_ids = [azurerm_user_assigned_identity.functions.id]
