@@ -1,4 +1,4 @@
-variable "primary_location" {
+variable "location" {
   type = string
 }
 
